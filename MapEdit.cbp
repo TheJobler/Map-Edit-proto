@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MapEdit" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\MapEdit" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\MapEdit" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Animation\Animation.cpp" />
+		<Unit filename="Animation\Animation.h" />
+		<Unit filename="AppSurface\AppSurface.cpp" />
+		<Unit filename="AppSurface\AppSurface.h" />
+		<Unit filename="ApplicationManager\AppStateEdit.cpp" />
+		<Unit filename="ApplicationManager\ApplStateIntro.cpp" />
+		<Unit filename="ApplicationManager\ApplStateIntro.h" />
+		<Unit filename="ApplicationManager\ApplicationManager.cpp" />
+		<Unit filename="ApplicationManager\ApplicationManager.h" />
+		<Unit filename="ApplicationManager\ApplicationStates.h" />
+		<Unit filename="Application\Application.Cleanup.cpp" />
+		<Unit filename="Application\Application.Execute.cpp" />
+		<Unit filename="Application\Application.Exit.cpp" />
+		<Unit filename="Application\Application.HandleEvent.cpp" />
+		<Unit filename="Application\Application.Initialize.cpp" />
+		<Unit filename="Application\Application.Loop.cpp" />
+		<Unit filename="Application\Application.Render.cpp" />
+		<Unit filename="Application\Application.cpp" />
+		<Unit filename="Application\Application.h" />
+		<Unit filename="Camera\Camera.cpp" />
+		<Unit filename="Camera\Camera.h" />
+		<Unit filename="Define.h" />
+		<Unit filename="Events\Events.cpp" />
+		<Unit filename="Events\Events.h" />
+		<Unit filename="FPSControl\FPSControl.cpp" />
+		<Unit filename="FPSControl\FPSControl.h" />
+		<Unit filename="Map\Area.cpp" />
+		<Unit filename="Map\Area.h" />
+		<Unit filename="Map\Map.cpp" />
+		<Unit filename="Map\Map.h" />
+		<Unit filename="Map\Tile.cpp" />
+		<Unit filename="Map\Tile.h" />
+		<Unit filename="Menu\Menu.cpp" />
+		<Unit filename="Menu\Menu.h" />
+		<Unit filename="StateMachine\State.h" />
+		<Unit filename="StateMachine\StateMachine.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

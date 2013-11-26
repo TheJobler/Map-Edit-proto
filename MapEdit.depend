@@ -1,0 +1,144 @@
+# depslib dependency file v1.0
+1359691357 source:c:\users\steven\documents\codeblocks\mapedit\applicationmanager\applicationmanager.cpp
+	"ApplicationManager.h"
+	"ApplicationStates.h"
+
+1359691162 c:\users\steven\documents\codeblocks\mapedit\applicationmanager\applicationmanager.h
+	"../StateMachine/StateMachine.h"
+
+1358183274 c:\users\steven\documents\codeblocks\mapedit\statemachine\statemachine.h
+	<typeinfo>
+	"State.h"
+
+1358136774 c:\users\steven\documents\codeblocks\mapedit\statemachine\state.h
+	"../Events/Events.h"
+
+1358101612 c:\users\steven\documents\codeblocks\mapedit\events\events.h
+	<SDL/SDL.h>
+
+1359089771 c:\users\steven\documents\codeblocks\mapedit\applicationmanager\applicationstates.h
+	"../StateMachine/State.h"
+	"../AppSurface/AppSurface.h"
+	"../Camera/Camera.h"
+	"../Map/Map.h"
+	"../Events/Events.h"
+	"../Menu/Menu.h"
+
+1357520258 c:\users\steven\documents\codeblocks\mapedit\appsurface\appsurface.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1359142557 c:\users\steven\documents\codeblocks\mapedit\camera\camera.h
+	<SDL/SDL.h>
+	"../Define.h"
+
+1359141610 c:\users\steven\documents\codeblocks\mapedit\define.h
+
+1359690346 c:\users\steven\documents\codeblocks\mapedit\map\map.h
+	"Area.h"
+
+1359690346 c:\users\steven\documents\codeblocks\mapedit\map\area.h
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	"Tile.h"
+	"../AppSurface/AppSurface.h"
+
+1359348550 c:\users\steven\documents\codeblocks\mapedit\map\tile.h
+	<vector>
+	"../Define.h"
+
+1358132850 source:c:\users\steven\documents\codeblocks\mapedit\applicationmanager\applicationstates.cpp
+	"ApplicationStates.h"
+
+1358486762 source:c:\users\steven\documents\codeblocks\mapedit\animation\animation.cpp
+	"Animation.h"
+
+1357523282 c:\users\steven\documents\codeblocks\mapedit\animation\animation.h
+	<SDL/SDL.h>
+
+1359690978 source:c:\users\steven\documents\codeblocks\mapedit\applicationmanager\appstateedit.cpp
+	"ApplicationStates.h"
+	"ApplicationManager.h"
+	"../Application/Application.h"
+
+1358830280 c:\users\steven\documents\codeblocks\mapedit\application\application.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"../Define.h"
+	"../Events/Events.h"
+	"../Animation/Animation.h"
+	"../AppSurface/AppSurface.h"
+	"../FPSControl/FPSControl.h"
+	"../ApplicationManager/ApplicationStates.h"
+	"../ApplicationManager/ApplicationManager.h"
+
+1358909335 source:c:\users\steven\documents\codeblocks\mapedit\application\application.cleanup.cpp
+	"Application.h"
+
+1358486760 source:c:\users\steven\documents\codeblocks\mapedit\application\application.execute.cpp
+	"Application.h"
+
+1357521502 source:c:\users\steven\documents\codeblocks\mapedit\application\application.exit.cpp
+	"Application.h"
+
+1358299292 source:c:\users\steven\documents\codeblocks\mapedit\application\application.handleevent.cpp
+	"Application.h"
+
+1359141610 source:c:\users\steven\documents\codeblocks\mapedit\application\application.initialize.cpp
+	"Application.h"
+
+1357977736 c:\users\steven\documents\codeblocks\mapedit\fpscontrol\fpscontrol.h
+	<SDL/SDL.h>
+
+1358299292 source:c:\users\steven\documents\codeblocks\mapedit\application\application.loop.cpp
+	"Application.h"
+
+1358299292 source:c:\users\steven\documents\codeblocks\mapedit\application\application.render.cpp
+	"Application.h"
+
+1357506420 source:c:\users\steven\documents\codeblocks\mapedit\application\application.cpp
+	"Application.h"
+
+1359143085 source:c:\users\steven\documents\codeblocks\mapedit\camera\camera.cpp
+	"Camera.h"
+
+1358042992 source:c:\users\steven\documents\codeblocks\mapedit\fpscontrol\fpscontrol.cpp
+	"FPSControl.h"
+
+1359339639 source:c:\users\steven\documents\codeblocks\mapedit\map\area.cpp
+	"Area.h"
+
+1359690346 source:c:\users\steven\documents\codeblocks\mapedit\map\map.cpp
+	"Map.h"
+
+1359339639 source:c:\users\steven\documents\codeblocks\mapedit\map\tile.cpp
+	"Tile.h"
+
+1357689448 source:c:\users\steven\documents\codeblocks\mapedit\main.cpp
+	"Application\Application.h"
+
+1358101612 source:c:\users\steven\documents\codeblocks\mapedit\events\events.cpp
+	"events.h"
+
+1359305262 source:c:\users\steven\documents\codeblocks\mapedit\applicationmanager\applstateintro.cpp
+	"ApplicationStates.h"
+	"ApplicationManager.h"
+
+1358095214 source:c:\users\steven\documents\codeblocks\mapedit\appsurface\appsurface.cpp
+	"AppSurface.h"
+
+1359688647 c:\users\steven\documents\codeblocks\mapedit\menu\menu.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<sstream>
+	<iomanip>
+	<vector>
+	<functional>
+	"../Map/Map.h"
+	"../AppSurface/AppSurface.h"
+	"../Camera/Camera.h"
+
+1359688647 source:c:\users\steven\documents\codeblocks\mapedit\menu\menu.cpp
+	"Menu.h"
+
